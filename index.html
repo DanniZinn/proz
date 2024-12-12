@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang = "pt-br">
+
+<!--https://www.w3schools.com/   site referência
+
+https://www.w3c.br/
+
+O Consórcio World Wide Web (W3C) é um consórcio internacional no qual organizações filiadas,
+uma equipe em tempo integral e o público trabalham juntos para desenvolver padrões para a Web.
+
+--> 
+
+    <head>
+       
+	        <meta name="author" content="Wanderley Lopes Batista">
+            <meta charset="UTF-8">
+	        <meta name="viewport" content="width=device-width, initial-scale=1">
+            
+            <!-- Fonte do Google Fonts -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+			   
+	        <title>Controle Academico</title>
+
+			<link rel="stylesheet" href="css/estilo.css">
+	</head>
+	   
+	  
+    <body>
+        
+        
+        <p><h1>PROZ EDUCAÇÃO - TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS</h1></p>
+    
+            
+        <!--Menus e Submenus.  Caso ocorra erro no Google Chrome, limpar cache -->
+    
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="">ALUNOS</a>
+                <ul class="submenu">
+                    <li><a href="cadastro_aluno.html">Cadastro</a></li>
+            
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="">PROFESSORES</a>
+                    <ul class="submenu">
+                        <li><a href="cadastro_professor.html">Cadastro</a></li>
+            
+                    </ul>
+            </li>
+    
+            <button id="perfil"><a href="#itens_perfil"> <img src="imagens/img_perfil-removebg-preview.png" width="50px"> </a></button>
+            
+        </ul>
+        
+        <div id="itens_perfil">
+            <ul>
+                <li><a href="notas.html"> NOTAS </a></li>
+                <div id="epc"></div> <!-- Serve para colocar uma margem entre os dois na quantidade que precisa. -->
+                <li><a href="frequencia.html"> FREQUENCIAS </a></li>
+            </ul>
+
+            <div id="fechar"><a href="index.html"> FECHAR </a></div> <!-- Comando para fechar os itens. -->
+        </div>
+   
+        <br>
+   
+ 
+            
+		<img id="banner" src="imagens/WhatsApp Image 2024-12-04 at 15.09.14.jpeg">
+			
+        <p id="bem_vindo"> Bem Vindo ao</p>	
+        <p id="titulo"> Controle Academico</p>	
+        <br>
+        <p id="in"> No controle academico, você poderá consultar suas <a href="notas.html"> notas</a>e consultar suas <a href="frequencias"> frequencias.</a> Além disso, você poderá fazer cadastro através da nossa Navegação Global.</p>
+
+        <fieldset id="alerta"><legend id="cor_alerta"> ALERTA!!! </legend>
+            <p> <b id="cor_alerta">* Nota média para aprovação:</b>
+            7,0. Essa média é alcançada através da média aritmética das 4 notas bimestrais. </p> 
+            
+            <p> <b id="cor_alerta">* Frequência para aprovação:</b>
+            75%. Faltas justificadas através de requisição apresentada pelo aluno serão abonadas.</p>
+           
+            <br>
+
+            <p id="tm_alerta"> O conselho escolar é soberano para definir a aprovação mesmo que os resultados não tenham sido alcançados. </p>
+        </fieldset>
+				
+        <footer>
+            <br>
+            <center><p><a href="mailto:wanderleylb@gmail.com">Author: Wanderley Lopes Batista</a> - WLB Qualidade & Desenvolvimento LTDA - Todos os direitos reservados </p></center>
+        </footer>  
+		
+
+    </body>			
+
+</html>
